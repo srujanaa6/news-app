@@ -14,7 +14,7 @@ function Content()
             const fetchApi =async()=>
         {
             
-            let url=`https://newsapi.org/v2/top-headlines?country=us&apiKey=c26dcdf41fdc45efa0f986bb04923625`
+            let url=`https://newsapi.org/v2/top-headlines?country=us&apiKey="token"`
            let response =await fetch(url)
             
             let data= await response.json();
